@@ -20,6 +20,20 @@ a {
     text-decoration: none;
     color: #333;
 }
+navbar {
+    position: fixed;
+    display: flex
+;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 1em;
+    overflow: hidden;
+    top: 0;
+    width: 100vw;
+    height: 3.5em;
+    z-index: 1000;
+}
 
 /* Hero Section */
 .hero {
